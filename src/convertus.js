@@ -36,6 +36,7 @@ program.parse(process.argv);
 
 const logResponse = ( num, start, end, converted ) =>   
   console.log(`   
+    
               Convertendo ${num} ${start} para ${end} equivale a ${converted} ${end}
             `)
  

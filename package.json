@@ -1,6 +1,6 @@
 {
   "name": "convertus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Faça conversões com o Convertus.",
   "main": "./lib/convertus.js",
   "scripts": {
