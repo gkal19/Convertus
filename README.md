@@ -18,3 +18,5 @@ $ npm i -g convertus
 Acesse qualquer Terminal e utilize o comando: `$ convertus --help`
 
 > Assim você pode pode ver todas as diversas linhas de comandos que o Convertus oferece.
+
+> Baseado em outro projeto meu, [ThermoCLI](https://github.com/gkal19/ThermoCLI) que teve seu código re-utilizado.
