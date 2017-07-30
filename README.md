@@ -12,3 +12,9 @@ O projeto usa `Node` e `npm`, então você pode instalar globalmente usando o co
 ```shell
 $ npm i -g convertus
 ```
+
+## Uso
+
+Acesse qualquer Terminal e utilize o comando: `$ convertus --help`
+
+> Assim você pode pode ver todas as diversas linhas de comandos que o Convertus oferece.
