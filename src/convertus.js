@@ -3,9 +3,10 @@
 'use strict';
 
 const program = require('commander');
+const pkg = require('../package.json');
 
 program
-  .version('./package.json')
+  .version(pkg.version)
   .usage('[options] <number>')
   //Temperatura
   .option('--c2f', 'Converta Celsius para Fahrenheit')
