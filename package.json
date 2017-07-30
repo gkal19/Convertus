@@ -1,19 +1,19 @@
 {
-  "name": "major",
+  "name": "convertus",
   "version": "0.0.1",
-  "description": "Faça conversões com o Major.",
-  "main": "./lib/major.js",
+  "description": "Faça conversões com o Convertus.",
+  "main": "./lib/convertus.js",
   "scripts": {
-    "start": "node ./lib/major.js",
+    "start": "node ./lib/convertus.js",
     "compile": "babel --source-maps -d lib/ src/",
     "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkal19/Major.git"
+    "url": "git+https://github.com/gkal19/Convertus.git"
   },
   "bin": {
-    "major": "./lib/major.js"
+    "convertus": "./lib/convertus.js"
   },
   "babel": {
     "presets": [
@@ -21,14 +21,14 @@
     ]
   },
   "keywords": [
-    "Major"
+    "Convertus"
   ],
   "author": "Gabriel Kalani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gkal19/Major/issues"
+    "url": "https://github.com/gkal19/Convertus/issues"
   },
-  "homepage": "https://github.com/gkal19/Major#readme",
+  "homepage": "https://github.com/gkal19/Convertus#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
